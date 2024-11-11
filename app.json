@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "kurs2",
+    "slug": "kurs2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.curylo.kurs2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.curylo.kurs2"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c27c14d8-c5c9-42f9-94e8-8732b52b730c"
+      }
+    },
+    "owner": "curylo",
+    "updates": {
+      "url": "https://u.expo.dev/c27c14d8-c5c9-42f9-94e8-8732b52b730c"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
